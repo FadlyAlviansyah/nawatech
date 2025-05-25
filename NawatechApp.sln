@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NawatechApp", "NawatechApp.csproj", "{24D88818-ECC7-6842-7451-B88A2F40DEB1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{24D88818-ECC7-6842-7451-B88A2F40DEB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24D88818-ECC7-6842-7451-B88A2F40DEB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24D88818-ECC7-6842-7451-B88A2F40DEB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24D88818-ECC7-6842-7451-B88A2F40DEB1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2F790642-7335-442F-BD02-ADDF097AA477}
+	EndGlobalSection
+EndGlobal

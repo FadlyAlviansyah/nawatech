@@ -1,0 +1,38 @@
+@model NawatechApp.Models.User
+@{
+    ViewData["Title"] = "My Profile";
+}
+
+<h2>My Profile</h2>
+
+@if (ViewBag.Success != null)
+{
+    <div class="alert alert-success">@ViewBag.Success</div>
+}
+
+<form asp-action="Profile" asp-controller="Auth" method="post" enctype="multipart/form-data">
+    @Html.AntiForgeryToken()
+    <div class="mb-3">
+        <label class="form-label">Name</label>
+        <input asp-for="Name" class="form-control" type="text"/>
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Email</label>
+        <input asp-for="Email" class="form-control" type="email" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">New Password</label>
+        <input asp-for="Password" class="form-control" type="password" autocomplete="new-password" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Profile Picture</label>
+        <input type="file" name="profileImage" class="form-control" />
+    </div>
+    @if (!string.IsNullOrEmpty(Model.ProfilePictures))
+    {
+        <div class="mb-3">
+            <img src="@Model.ProfilePictures" alt="Profile" class="img-thumbnail" width="150" />
+        </div>
+    }
+    <button type="submit" class="btn btn-primary">Update</button>
+</form>

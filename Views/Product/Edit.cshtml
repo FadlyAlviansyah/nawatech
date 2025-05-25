@@ -1,0 +1,100 @@
+@model NawatechApp.Models.Product
+@{
+    ViewData["Title"] = "Edit Product";
+}
+
+<h2>Edit Product</h2>
+
+@if (!ViewData.ModelState.IsValid)
+{
+    <div class="alert alert-danger">
+        <ul>
+            @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+            {
+                <li>@error.ErrorMessage</li>
+            }
+        </ul>
+    </div>
+}
+
+<form asp-action="Edit" method="post" enctype="multipart/form-data">
+    <input type="hidden" asp-for="Id" />
+    <input type="hidden" asp-for="Image" />
+    <input type="hidden" asp-for="Price" id="price" />
+    <div class="form-group">
+        <label asp-for="Name"></label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Price"></label>
+        @* <input asp-for="Price" class="form-control" /> *@
+        <input class="form-control" id="price_display" />
+        <span asp-validation-for="Price" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="CategoryId">Category</label>
+        <select asp-for="CategoryId" class="form-control" asp-items="ViewBag.Categories">
+        </select>
+        <span asp-validation-for="CategoryId" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label>Current Image</label><br />
+        @if (!string.IsNullOrEmpty(Model.Image))
+        {
+            <img src="@Model.Image" width="100" />
+        }
+    </div>
+    <div class="form-group">
+        <label for="ImageFile">Change Image</label>
+        <input type="file" name="ImageFile" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-primary mt-2">Update</button>
+</form>
+
+@section Scripts {
+    <script>
+        function formatRupiah(angka, prefix) {
+            let number_string = angka.replace(/[^,\d]/g, '').toString(),
+                split = number_string.split(','),
+                sisa = split[0].length % 3,
+                rupiah = split[0].substr(0, sisa),
+                ribuan = split[0].substr(sisa).match(/\d{3}/gi);
+
+            if (ribuan) {
+                let separator = sisa ? '.' : '';
+                rupiah += separator + ribuan.join('.');
+            }
+
+            rupiah = split[1] != undefined ? rupiah + ',' + split[1] : rupiah;
+            return prefix == undefined ? rupiah : (rupiah ? 'Rp ' + rupiah : '');
+        }
+
+        function cleanRupiah(rupiah) {
+            return rupiah.replace(/[^0-9]/g, '');
+        }
+
+        const displayInput = document.getElementById("price_display");
+        const hiddenInput = document.getElementById("price");
+
+        document.addEventListener('DOMContentLoaded', function () {
+            if (hiddenInput.value) {
+                const decimal = parseFloat(hiddenInput.value);
+                let displayValue;
+                if (decimal % 1 === 0) {
+                    displayValue = formatRupiah(decimal.toString(), 'Rp ');
+                } else {
+                    displayValue = formatRupiah(decimal.toFixed(2).toString().replace('.', ','), 'Rp ');
+                }
+                displayInput.value = displayValue;
+            }
+        });
+
+
+        
+        displayInput.addEventListener('keyup', function () {
+            this.value = formatRupiah(this.value, 'Rp ');
+            hiddenInput.value = cleanRupiah(this.value);
+        });
+    </script>
+}

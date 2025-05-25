@@ -1,0 +1,64 @@
+@model NawatechApp.Models.Product
+@{
+    ViewData["Title"] = "Create Product";
+}
+
+<h2>Create Product</h2>
+
+<form asp-action="Create" method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <label asp-for="Name"></label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Price"></label>
+        <input class="form-control" id="price_display" />
+        <input type="hidden" asp-for="Price" id="price" />
+        <span asp-validation-for="Price" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="CategoryId">Category</label>
+        <select asp-for="CategoryId" class="form-control" asp-items="ViewBag.Categories">
+            <option disabled hidden selected>-- Select Category --</option>
+        </select>
+        <span asp-validation-for="CategoryId" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label for="ImageFile">Image</label>
+        <input type="file" name="ImageFile" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-success mt-2">Save</button>
+</form>
+
+@section Scripts {
+    <script>
+        function formatRupiah(angka, prefix) {
+            let number_string = angka.replace(/[^,\d]/g, '').toString(),
+                split = number_string.split(','),
+                sisa = split[0].length % 3,
+                rupiah = split[0].substr(0, sisa),
+                ribuan = split[0].substr(sisa).match(/\d{3}/gi);
+
+            if (ribuan) {
+                let separator = sisa ? '.' : '';
+                rupiah += separator + ribuan.join('.');
+            }
+
+            rupiah = split[1] != undefined ? rupiah + ',' + split[1] : rupiah;
+            return prefix == undefined ? rupiah : (rupiah ? 'Rp ' + rupiah : '');
+        }
+
+        function cleanRupiah(rupiah) {
+            return rupiah.replace(/[^0-9]/g, '');
+        }
+
+        const displayInput = document.getElementById("price_display");
+        const hiddenInput = document.getElementById("price");
+
+        displayInput.addEventListener('keyup', function () {
+            this.value = formatRupiah(this.value, 'Rp ');
+            hiddenInput.value = cleanRupiah(this.value);
+        });
+    </script>
+}

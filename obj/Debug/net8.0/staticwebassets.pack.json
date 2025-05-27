@@ -1,303 +1,303 @@
 {
   "Files": [
     {
-      "Id": "d:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\NawatechApp.bundle.scp.css",
+      "Id": "D:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\NawatechApp.bundle.scp.css",
       "PackagePath": "staticwebassets\\NawatechApp.bundle.scp.css"
     },
     {
-      "Id": "d:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\css\\site.css",
+      "Id": "D:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "d:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\favicon.ico",
+      "Id": "D:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "d:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\images\\products\\51ad60cc-7389-42c4-8be9-5add4582608f.jpg",
+      "Id": "D:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\images\\products\\51ad60cc-7389-42c4-8be9-5add4582608f.jpg",
       "PackagePath": "staticwebassets\\images\\products\\51ad60cc-7389-42c4-8be9-5add4582608f.jpg"
     },
     {
-      "Id": "d:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\images\\products\\55b725d3-eb42-4957-9a62-ebf82cbf97a2.jpg",
+      "Id": "D:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\images\\products\\55b725d3-eb42-4957-9a62-ebf82cbf97a2.jpg",
       "PackagePath": "staticwebassets\\images\\products\\55b725d3-eb42-4957-9a62-ebf82cbf97a2.jpg"
     },
     {
-      "Id": "d:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\images\\products\\7ddcf429-6403-43ba-87fe-1cf40235e39c.png",
+      "Id": "D:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\images\\products\\7ddcf429-6403-43ba-87fe-1cf40235e39c.png",
       "PackagePath": "staticwebassets\\images\\products\\7ddcf429-6403-43ba-87fe-1cf40235e39c.png"
     },
     {
-      "Id": "d:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\images\\products\\89a96f87-fd35-40fd-a8e7-871f6b75aa2e.png",
+      "Id": "D:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\images\\products\\89a96f87-fd35-40fd-a8e7-871f6b75aa2e.png",
       "PackagePath": "staticwebassets\\images\\products\\89a96f87-fd35-40fd-a8e7-871f6b75aa2e.png"
     },
     {
-      "Id": "d:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\images\\products\\e29733b0-fad9-4efa-8b70-fa280cda0df5.jpg",
+      "Id": "D:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\images\\products\\e29733b0-fad9-4efa-8b70-fa280cda0df5.jpg",
       "PackagePath": "staticwebassets\\images\\products\\e29733b0-fad9-4efa-8b70-fa280cda0df5.jpg"
     },
     {
-      "Id": "d:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\images\\products\\f18e5f29-62db-4a76-be9d-0cc643791f1f.jpg",
+      "Id": "D:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\images\\products\\f18e5f29-62db-4a76-be9d-0cc643791f1f.jpg",
       "PackagePath": "staticwebassets\\images\\products\\f18e5f29-62db-4a76-be9d-0cc643791f1f.jpg"
     },
     {
-      "Id": "d:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\images\\profile.png",
+      "Id": "D:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\images\\profile.png",
       "PackagePath": "staticwebassets\\images\\profile.png"
     },
     {
-      "Id": "d:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\images\\users\\1e8f6af3-0461-41b5-9070-af909f96030c.jpg",
+      "Id": "D:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\images\\users\\1e8f6af3-0461-41b5-9070-af909f96030c.jpg",
       "PackagePath": "staticwebassets\\images\\users\\1e8f6af3-0461-41b5-9070-af909f96030c.jpg"
     },
     {
-      "Id": "d:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\images\\users\\2ab9815f-eb9e-4c4f-b9a5-15be7c1b4718.jpg",
+      "Id": "D:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\images\\users\\2ab9815f-eb9e-4c4f-b9a5-15be7c1b4718.jpg",
       "PackagePath": "staticwebassets\\images\\users\\2ab9815f-eb9e-4c4f-b9a5-15be7c1b4718.jpg"
     },
     {
-      "Id": "d:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\images\\users\\fcd7d2ba-6a88-4637-b7d7-629058cfa758.jpg",
+      "Id": "D:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\images\\users\\fcd7d2ba-6a88-4637-b7d7-629058cfa758.jpg",
       "PackagePath": "staticwebassets\\images\\users\\fcd7d2ba-6a88-4637-b7d7-629058cfa758.jpg"
     },
     {
-      "Id": "d:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\images\\users\\fedb575e-ff92-4081-9718-7317e6b9aed0.jpg",
+      "Id": "D:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\images\\users\\fedb575e-ff92-4081-9718-7317e6b9aed0.jpg",
       "PackagePath": "staticwebassets\\images\\users\\fedb575e-ff92-4081-9718-7317e6b9aed0.jpg"
     },
     {
-      "Id": "d:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\js\\site.js",
+      "Id": "D:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "d:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "D:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "d:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "D:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "d:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "D:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "d:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "D:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "d:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "D:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "d:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "D:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "d:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "D:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "d:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "D:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "d:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "D:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "d:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "D:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "d:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "D:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "d:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "D:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "d:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "D:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "d:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "D:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "d:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "D:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "d:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "D:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "d:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "D:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "d:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "D:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "d:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "D:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "d:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "D:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "d:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "D:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "d:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "D:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "d:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "D:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "d:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "D:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "d:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "D:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "d:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "D:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "d:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "D:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "d:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "D:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "d:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "D:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "d:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "D:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "d:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "D:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "d:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "D:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "d:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "D:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "d:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "D:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "d:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "D:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "d:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "D:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "d:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "D:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "d:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "D:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "d:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "D:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "d:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "D:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "d:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "D:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "d:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "D:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "d:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "D:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "d:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "D:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "d:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "D:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "d:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "D:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "d:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js",
+      "Id": "D:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "d:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js",
+      "Id": "D:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "d:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "D:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "d:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "D:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "d:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "D:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "d:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "D:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "d:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "D:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "d:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "D:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "d:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "D:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "d:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "D:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "d:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "D:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "d:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
+      "Id": "D:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.js"
     },
     {
-      "Id": "d:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
+      "Id": "D:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.js"
     },
     {
-      "Id": "d:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
+      "Id": "D:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.map"
     },
     {

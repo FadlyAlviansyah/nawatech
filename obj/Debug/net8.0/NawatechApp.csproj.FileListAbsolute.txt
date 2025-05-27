@@ -168,3 +168,4 @@ D:\Portfolio\Website\Technical Tes Nawatech\NawatechApp\obj\Debug\net8.0\refint\
 D:\Portfolio\Website\Technical Tes Nawatech\NawatechApp\obj\Debug\net8.0\NawatechApp.pdb
 D:\Portfolio\Website\Technical Tes Nawatech\NawatechApp\obj\Debug\net8.0\NawatechApp.genruntimeconfig.cache
 D:\Portfolio\Website\Technical Tes Nawatech\NawatechApp\obj\Debug\net8.0\ref\NawatechApp.dll
+D:\Portfolio\Website\Technical Tes Nawatech\NawatechApp\bin\Debug\net8.0\ERD.json

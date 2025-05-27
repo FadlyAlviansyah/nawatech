@@ -222,3 +222,26 @@ D:\Portfolio\Website\NawatechApp\obj\Debug\net9.0\NawatechApp.pdb
 D:\Portfolio\Website\NawatechApp\obj\Debug\net9.0\NawatechApp.genruntimeconfig.cache
 D:\Portfolio\Website\NawatechApp\obj\Debug\net9.0\ref\NawatechApp.dll
 d:\Portfolio\Website\NawatechApp\obj\Debug\net9.0\compressed\iylk76k9em-61n19gt1b8.gz
+D:\Portfolio\Website\Technical Tes Nawatech\NawatechApp\bin\Debug\net9.0\NawatechApp.exe
+D:\Portfolio\Website\Technical Tes Nawatech\NawatechApp\bin\Debug\net9.0\NawatechApp.dll
+D:\Portfolio\Website\Technical Tes Nawatech\NawatechApp\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+D:\Portfolio\Website\Technical Tes Nawatech\NawatechApp\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Portfolio\Website\Technical Tes Nawatech\NawatechApp\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Portfolio\Website\Technical Tes Nawatech\NawatechApp\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Portfolio\Website\Technical Tes Nawatech\NawatechApp\bin\Debug\net9.0\Microsoft.Identity.Client.dll
+D:\Portfolio\Website\Technical Tes Nawatech\NawatechApp\bin\Debug\net9.0\Microsoft.SqlServer.Server.dll
+D:\Portfolio\Website\Technical Tes Nawatech\NawatechApp\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+D:\Portfolio\Website\Technical Tes Nawatech\NawatechApp\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Portfolio\Website\Technical Tes Nawatech\NawatechApp\bin\Debug\net9.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Portfolio\Website\Technical Tes Nawatech\NawatechApp\obj\Debug\net9.0\NawatechApp.csproj.AssemblyReference.cache
+D:\Portfolio\Website\Technical Tes Nawatech\NawatechApp\obj\Debug\net9.0\NawatechApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Portfolio\Website\Technical Tes Nawatech\NawatechApp\obj\Debug\net9.0\NawatechApp.AssemblyInfoInputs.cache
+D:\Portfolio\Website\Technical Tes Nawatech\NawatechApp\obj\Debug\net9.0\NawatechApp.AssemblyInfo.cs
+D:\Portfolio\Website\Technical Tes Nawatech\NawatechApp\obj\Debug\net9.0\NawatechApp.csproj.CoreCompileInputs.cache
+D:\Portfolio\Website\Technical Tes Nawatech\NawatechApp\obj\Debug\net9.0\NawatechApp.MvcApplicationPartsAssemblyInfo.cache
+D:\Portfolio\Website\Technical Tes Nawatech\NawatechApp\obj\Debug\net9.0\NawatechApp.RazorAssemblyInfo.cache
+D:\Portfolio\Website\Technical Tes Nawatech\NawatechApp\obj\Debug\net9.0\NawatechApp.RazorAssemblyInfo.cs
+D:\Portfolio\Website\Technical Tes Nawatech\NawatechApp\obj\Debug\net9.0\NawatechApp.sourcelink.json
+D:\Portfolio\Website\Technical Tes Nawatech\NawatechApp\obj\Debug\net9.0\NawatechApp.dll
+D:\Portfolio\Website\Technical Tes Nawatech\NawatechApp\obj\Debug\net9.0\refint\NawatechApp.dll
+D:\Portfolio\Website\Technical Tes Nawatech\NawatechApp\obj\Debug\net9.0\NawatechApp.pdb

@@ -11,8 +11,11 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddAuthentication("MyCookieAuth")
     .AddCookie("MyCookieAuth", options =>
     {
-        options.LoginPath = "/Auth/Login";   
+        options.LoginPath = "/Auth/Login";
         options.LogoutPath = "/Auth/Logout"; 
+        options.Cookie.SecurePolicy = CookieSecurePolicy.None; // Ganti jadi None dulu buat testing di localhost tanpa HTTPS
+        options.Cookie.HttpOnly = true;
+        options.Cookie.SameSite = Microsoft.AspNetCore.Http.SameSiteMode.Lax;
     });
 
 var app = builder.Build();
@@ -31,7 +34,7 @@ app.UseRouting();
 app.UseAuthentication();
 app.UseAuthorization();
 
-app.MapStaticAssets();
+// app.MapStaticAssets();
 
 app.MapControllerRoute(
     name: "default",

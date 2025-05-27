@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Portfolio\\Website\\NawatechApp\\NawatechApp.csproj": {}
+    "D:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\NawatechApp.csproj": {}
   },
   "projects": {
-    "d:\\Portfolio\\Website\\NawatechApp\\NawatechApp.csproj": {
+    "D:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\NawatechApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Portfolio\\Website\\NawatechApp\\NawatechApp.csproj",
+        "projectUniqueName": "D:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\NawatechApp.csproj",
         "projectName": "NawatechApp",
-        "projectPath": "d:\\Portfolio\\Website\\NawatechApp\\NawatechApp.csproj",
+        "projectPath": "D:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\NawatechApp.csproj",
         "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "d:\\Portfolio\\Website\\NawatechApp\\obj\\",
+        "outputPath": "D:\\Portfolio\\Website\\Technical Tes Nawatech\\NawatechApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -22,7 +22,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net9.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -30,8 +30,8 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net9.0": {
-            "targetAlias": "net9.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -44,12 +44,11 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
+        }
       },
       "frameworks": {
-        "net9.0": {
-          "targetAlias": "net9.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
@@ -81,7 +80,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.410/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

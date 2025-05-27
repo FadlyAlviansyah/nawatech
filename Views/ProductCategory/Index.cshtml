@@ -1,6 +1,7 @@
 @model IEnumerable<NawatechApp.Models.ProductCategory>
 @{
     ViewData["Title"] = "Product Categories";
+    var userEmail = User.Identity?.Name;
 }
 
 <h2>Product Categories</h2>
@@ -11,6 +12,7 @@
     <thead>
         <tr>
             <th>Name</th>
+            <th>Created By</th>
             <th>Created At</th>
             <th>Actions</th>
         </tr>
@@ -20,10 +22,14 @@
         {
             <tr>
                 <td>@item.Name</td>
+                <td>@item.Users?.Name</td>
                 <td>@item.CreatedAt.ToString("g")</td>
                 <td>
-                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning btn-sm">Edit</a>
-                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger btn-sm">Delete</a>
+                    @if (item.Users?.Email == userEmail)
+                    {
+                        <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning btn-sm">Edit</a>
+                        <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger btn-sm">Delete</a>
+                    }
                 </td>
             </tr>
         }

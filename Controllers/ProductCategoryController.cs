@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using NawatechApp.Data;
 using NawatechApp.Models;
 
@@ -14,6 +15,7 @@ namespace NawatechApp.Controllers
         {
             var categories = _context.ProductCategories
                 .Where(c => !c.IsDeleted)
+                .Include(c => c.Users)
                 .ToList();
             return View(categories);
         }
@@ -22,8 +24,16 @@ namespace NawatechApp.Controllers
         [HttpPost]
         public IActionResult Create(ProductCategory category)
         {
+            var userEmail = User.Identity?.Name;
+            var user = _context.Users.FirstOrDefault(u => u.Email == userEmail);
+            if (user == null)
+            {
+                return Unauthorized();
+            }
+
             if (ModelState.IsValid)
             {
+                category.UserId = user.Id;
                 _context.ProductCategories.Add(category);
                 _context.SaveChanges();
                 return RedirectToAction("Index");
@@ -43,9 +53,23 @@ namespace NawatechApp.Controllers
         [HttpPost]
         public IActionResult Edit(ProductCategory category)
         {
+            var userEmail = User.Identity?.Name;
+            var user = _context.Users.FirstOrDefault(u => u.Email == userEmail);
+            if (user == null)
+            {
+                return Unauthorized();
+            }
+            
+            var existingCategory = _context.ProductCategories.FirstOrDefault(c => c.Id == category.Id && c.UserId == user.Id);
+            if (existingCategory == null)
+            {
+                return Unauthorized();
+            }
+
             if (ModelState.IsValid)
             {
-                _context.ProductCategories.Update(category);
+                existingCategory.Name = category.Name;
+                existingCategory.UserId = user.Id;
                 _context.SaveChanges();
                 return RedirectToAction("Index");
             }
@@ -54,13 +78,22 @@ namespace NawatechApp.Controllers
 
         public IActionResult Delete(int id)
         {
-            var cat = _context.ProductCategories.Find(id);
-            if (cat != null)
+            var userEmail = User.Identity?.Name;
+            var user = _context.Users.FirstOrDefault(u => u.Email == userEmail);
+            if (user == null)
             {
-                cat.IsDeleted = true;
-                _context.ProductCategories.Update(cat);
-                _context.SaveChanges();
+                return Unauthorized();
             }
+
+            var cat = _context.ProductCategories.FirstOrDefault(c => c.Id == id && c.UserId == user.Id);
+            if (cat == null || cat.IsDeleted)
+            {
+                return NotFound();
+            }
+
+            cat.IsDeleted = true;
+            _context.ProductCategories.Update(cat);
+            _context.SaveChanges();
             return RedirectToAction("Index");
         }
     }

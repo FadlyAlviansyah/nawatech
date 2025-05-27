@@ -25,6 +25,7 @@ namespace NawatechApp.Controllers
             var products = await _context.Products
                 .Where(p => !p.IsDeleted)
                 .Include(p => p.Category)
+                .Include(p => p.Users)
                 .ToListAsync();
 
             return View(products);
@@ -39,6 +40,13 @@ namespace NawatechApp.Controllers
         [HttpPost]
         public IActionResult Create(Product product, IFormFile imageFile)
         {
+            var userEmail = User.Identity?.Name;
+            var user = _context.Users.FirstOrDefault(u => u.Email == userEmail);
+            if (user == null)
+            {
+                return Unauthorized();
+            }
+
             if (ModelState.IsValid)
             {
                 if (imageFile != null)
@@ -49,6 +57,7 @@ namespace NawatechApp.Controllers
                     imageFile.CopyTo(stream);
                     product.Image = "/images/products/" + fileName;
                 }
+                product.UserId = user.Id;
                 _context.Products.Add(product);
                 _context.SaveChanges();
                 return RedirectToAction("Index");
@@ -71,14 +80,30 @@ namespace NawatechApp.Controllers
         public IActionResult Edit(Product product)
         {
             var imageFile = Request.Form.Files["ImageFile"];
+            var userEmail = User.Identity?.Name;
+            var user = _context.Users.FirstOrDefault(u => u.Email == userEmail);
+            if (user == null)
+            {
+                return Unauthorized();
+            }
 
+            var existingProduct = _context.Products.FirstOrDefault(p => p.Id == product.Id && p.UserId == user.Id);
+            if (existingProduct == null)
+            {
+                return Unauthorized();
+            }
+            
             if (ModelState.IsValid)
             {
+                existingProduct.Name = product.Name;
+                existingProduct.Price = product.Price;
+                existingProduct.Stock = product.Stock;
+                existingProduct.CategoryId = product.CategoryId;
                 if (imageFile != null && imageFile.Length > 0)
                 {
-                    if (!string.IsNullOrEmpty(product.Image))
+                    if (!string.IsNullOrEmpty(existingProduct.Image))
                     {
-                        var oldPath = Path.Combine(_env.WebRootPath, product.Image.TrimStart('/').Replace("/", Path.DirectorySeparatorChar.ToString()));
+                        var oldPath = Path.Combine(_env.WebRootPath, existingProduct.Image.TrimStart('/').Replace("/", Path.DirectorySeparatorChar.ToString()));
                         if (System.IO.File.Exists(oldPath))
                         {
                             System.IO.File.Delete(oldPath);
@@ -93,10 +118,10 @@ namespace NawatechApp.Controllers
                     using var stream = new FileStream(path, FileMode.Create);
                     imageFile.CopyTo(stream);
 
-                    product.Image = "/images/products/" + fileName;
+                    existingProduct.Image = "/images/products/" + fileName;
                 }
 
-                _context.Products.Update(product);
+                _context.Products.Update(existingProduct);
                 _context.SaveChanges();
                 return RedirectToAction("Index");
             }
@@ -107,13 +132,22 @@ namespace NawatechApp.Controllers
 
         public IActionResult Delete(int id)
         {
-            var prod = _context.Products.Find(id);
-            if (prod != null)
+            var userEmail = User.Identity?.Name;
+            var user = _context.Users.FirstOrDefault(u => u.Email == userEmail);
+            if (user == null)
             {
-                prod.IsDeleted = true;
-                _context.Products.Update(prod);
-                _context.SaveChanges();
+                return Unauthorized();
             }
+
+            var prod = _context.Products.FirstOrDefault(c => c.Id == id && c.UserId == user.Id);
+            if (prod == null || prod.IsDeleted)
+            {
+                return NotFound();
+            }
+
+            prod.IsDeleted = true;
+            _context.Products.Update(prod);
+            _context.SaveChanges();
             return RedirectToAction("Index");
         }
     }

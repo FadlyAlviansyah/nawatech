@@ -7,13 +7,20 @@ namespace NawatechApp.Models
     {
         public int Id { get; set; }
 
+        public int CategoryId { get; set; }
+        public ProductCategory? Category { get; set; }
+
+        public int UserId { get; set; }
+        public User? Users { get; set; }
+
         [Required]
         public required string Name { get; set; }
 
-        public string? Description { get; set; }
-
         [Required]
         public int Price { get; set; }
+
+        [Required]
+        public int Stock { get; set; }
 
         public string? Image { get; set; }
 
@@ -21,7 +28,5 @@ namespace NawatechApp.Models
 
         public DateTime CreatedAt { get; set; } = DateTime.Now;
 
-        public int CategoryId { get; set; }
-        public ProductCategory? Category { get; set; }
     }
 }

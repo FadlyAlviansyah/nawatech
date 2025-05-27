@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NawatechApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a7c9f2bee5c8b3cd2d0a72f470fe89b86a4712b3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a0b60bc0526d8c7cc46133a4ab48aaa103cf3eb9")]
 [assembly: System.Reflection.AssemblyProductAttribute("NawatechApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NawatechApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
